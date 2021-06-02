@@ -4,7 +4,7 @@
 package sef.module3.activity;
 
 
-
+import sef.module4.sample.Person;
 
 /**
  * @author 
@@ -21,13 +21,13 @@ public class Calculator {
 	int y = 0;
 	
 	int[] nums = {1, 2, 3, 4};
-//	
-//	System.out.println("Addition - " + add(x,y));
-//	System.out.println("Subtraction - " + subtract(x,y)); // x = 10, y - 20 =  10 - (-20)
-//	System.out.println("Multiply - " + multiply(nums));
+
+	System.out.println("Addition - " + add(x,y));
+	System.out.println("Subtraction - " + subtract(x,y)); // x = 10, y - 20 =  10 - (-20)
+	System.out.println("Multiply - " + multiply(nums));
 	System.out.println("Divide - " + divide(x,y));
-	
-	if 
+
+
 	
 	}
 
@@ -65,7 +65,7 @@ public class Calculator {
 		if (x == 0 || y == 0) {
 			System.out.println("One of the number is 0, I can't do the divide operation");
 			divValue = 0;
-			return ;
+			return divValue;
 			// complete the code 
 		} else {
 			divValue = x/y;

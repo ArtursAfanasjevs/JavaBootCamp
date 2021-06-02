@@ -9,19 +9,25 @@ public static void main(String[] args) {
 	obj.catchMeIfYouCan();
 }
 
-void catchMeIfYouCan()
-{
-	int [] arr={0,1,2,3,4,5,6,7,8,9};
-	
-	for(int i=0;i<=10;i++)
-	{
-		System.out.println(arr[i]);
+void catchMeIfYouCan() {
+	try {
+		int[] arr = {0, 1, 2, 3, 4, 5,6,7,8,9};
+
+		for (int i = 0; i <= 10; i++) {
+
+			System.out.println(arr[i]);
+		}
+	}	catch(Exception e) {
+		System.out.println("This is catch block, Error is expected there");
 	}
-	
-	
-	
-	System.out.println("This should get printed even if there is an exception");
-	
+	//			System.out.println("This should get printed even if there is an exception");
+
+
+	finally{
+	System.out.println("This is finally block");
+	System.out.println("This should print even in case of exception");}
 }
+
+
 
 }
