@@ -9,7 +9,7 @@ import org.junit.BeforeClass;
 import org.junit.Test;
 
 public class ListActivityTest2 {
-
+	String temp = "";
 	@BeforeClass
 	public static void setUpBeforeClass() throws Exception {
 		
@@ -24,7 +24,7 @@ public class ListActivityTest2 {
 
 	@Before
 	public void setUp() throws Exception {
-		String temp = "";
+
 	}
 
 	@After
